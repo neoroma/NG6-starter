@@ -1,6 +1,7 @@
 class HeroController {
   constructor() {
-    this.name = 'hero';
+    this.name = 'gameCreator';
+    this.user = Object.create(null)
   }
 }
 
